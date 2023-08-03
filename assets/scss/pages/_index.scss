@@ -1,0 +1,311 @@
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header_text{
+  text-align: right;
+  padding: 296px 0px;
+  color: #650300;
+}
+.header_text h2{
+  font-size:36px;
+}
+.header_text h1{
+  font-size: 64px;
+  font-weight: 900;
+}
+.header_btn{
+  background: #aa0601;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+@media (max-width: 776px) {
+  .header{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+  }
+  .header_text{
+    padding: 144px 16px;
+  }
+  .header_text h2{
+    font-size: 16px;
+  }
+  .header_text h1{
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+}
+.section{
+  background: #fbf2f2;
+  color: #650300;
+}
+.section h2{
+  padding-top: 80px;
+  padding-bottom: 36px;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 900;
+}
+.section ul{
+  padding-bottom: 80px;
+}
+.section_list{
+  text-align: center;
+  width: 25%;
+}
+.section_list img{
+  width: 84px;
+  height: 84px;
+}
+.section_list h3{
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+.section_list p{
+  color: #000;
+  text-align: left;
+  margin-left: 24px;
+}
+@media (max-width:996px) {
+  .section ul{
+    flex-wrap: wrap;
+  }
+  .section_list{
+    width: 50%;
+  }
+  .section_list p{
+    margin: 0;
+    padding: 0 16px;
+  }
+}
+@media (max-width:776px){
+  .section h2{
+    padding-top: 40px;
+    font-size: 24px;
+  }
+  .section ul{
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .section_list{
+    width: 100%;
+  }
+  .section_list img{
+    padding: 32px 0 24px 0;
+  }
+}
+.contact h2{
+  padding: 80px 0px 48px 0px;
+  font-weight: 900;
+  font-size: 48px;
+  color: #650300;
+  text-align: center;
+}
+.contact_list{
+  width: 33.3%;
+  padding: 0 12px;
+}
+.contact_list img{
+  width: 100%;
+}
+.contact_text h3, .pain_title h3{
+  font-size: 48px;
+  font-weight: 900;
+  color: #aa0601;
+  text-align: center;
+  font-style: italic;
+}
+.contact_text h3{
+  margin-top: 8px;
+  padding-bottom: 80px;
+}
+@media (max-width: 996px){
+  .contact_text{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact_list{
+    width: 100%;
+  }
+  .contact_list img{
+    width: 50%;
+  }
+}
+@media (max-width:776px) {
+  .contact_list{
+    padding: 0 16px;
+  }
+  .contact_list img{
+    width: 100%;
+  }
+}
+.pain{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true");
+}
+.pain h2{
+  padding: 80px 0px 48px 0px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.pain_title img{
+  width: 100%;
+  display:block;
+}
+.pain_title h3{
+  background: #fff;
+  padding: 8px 0px 8px 0px;
+  border: solid 1px rgba(0, 0, 0,0.1); 
+  margin-bottom: 80px;
+}
+@media (max-width:996px) {
+  .pain{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true");
+  }
+  .pain_title{
+    flex-direction: column;
+    padding: 0px 36px;
+  }
+  .pain_title h3{
+    margin-bottom: 24px;
+  }
+}
+.card h2{
+  margin-top: 80px;
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: #650300;
+}
+.card_list{
+  margin-right: 24px;
+  width: 25%;
+}
+.card_list img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+  display: block;
+}
+.cards{
+  padding: 16px;
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(222, 226, 230, 1);
+  border-radius: 0px 0px 4px 4px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.cards h5{
+  margin-bottom: 8px;
+}
+.data{
+  color: #707070;
+}
+@media (max-width: 996px) {
+  .card_title{
+    flex-wrap: wrap;
+    padding: 0 12px;
+  }
+  .card_list{
+    width: 48%;
+    margin: 0;
+  }
+  .cards{
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 776px) {
+  .card h2{
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .card_list{
+    width: 100%;
+    margin: 8px 16px;
+  }
+  .cards{
+    margin-bottom: 0;
+  }
+  .card_list:last-child{
+    margin-bottom: 40px;
+  }
+}
+.complete{
+  background: #fbf2f2;
+}
+.complete_title{
+  width: 50%;
+  margin: 0 auto;
+}
+.complete_title h2{
+  padding: 80px 0px 48px 0px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #650300;
+}
+.complete_title h3{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.complete_form{
+  margin-bottom: 16px;
+}
+.complete_form:last-child{
+  margin-bottom: 0;
+}
+.complete_form input{
+  margin-top: 8px;
+  padding: 6px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.issue input{
+  padding-bottom: 106px;
+}
+.checkbox input{
+  width: auto;
+}
+.btn{
+  text-align: center;
+}
+.button input{
+  width: 50%;
+  padding: 16px 0;
+  background: #aa0601;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+::-webkit-input-placeholder { 
+  padding: 12px;
+}
+@media (max-width: 776px) {
+  .complete_title{
+    width: 90%;
+  }
+  .button input{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,115 @@
+.glass_header{
+  font-size: 32px;
+  width: 100%;
+  font-weight: 700;
+}
+.glass_header li{
+  width: 33.3%;
+  border: 1px solid #DCDCDC;
+  padding: 24px 0px;
+  text-align: center;
+}
+.glass_red:nth-child(2){
+  border-bottom: solid 8px #aa0601;
+}
+.header_img{
+  display: flex;
+  width: 100%;
+}
+.img01, .img02{
+  width: 50%;
+}
+.header_title{
+  text-align: center;
+  margin-top: 80px;
+}
+.header_title h1{
+  font-size: 42px;
+  font-weight: 700;
+}
+.header_title h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+.glass{
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.glasses{
+  width: 30%;
+  margin-bottom: 80px;
+}
+.glasses img{
+  width: 100%;
+}
+.glass_text{
+  font-size: 24px;
+}
+.glass_price{
+  color: #aa0601;
+}
+.square{
+  display: flex;
+}
+.square01{
+  background: #5F3E2D;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+.square02{
+  background: #B75929;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+.page{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  font-weight: 500;
+}
+.page li{
+  border: solid 1px #555;
+}
+.page_up, .page_down{
+  padding: 11px 12px;
+  font-size: 19px;
+  background: #F2F2F2;
+}
+.page_list{
+  padding: 12px 16px;
+  font-size: 18px;
+}
+.page li:hover{
+  background: #000;
+  color:#fff;
+  cursor: pointer;
+}
+@media (max-width:996px) {
+  .glass_header{
+    font-size: 24px;
+  }
+  .glasses{
+    width: 45%;
+    padding: 16px;
+  }
+}
+@media (max-width:776px) {
+  .glass_header{
+    font-size: 16px;
+  }
+  .glasses{
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .page{
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .page_list,.page_up, .page_down{
+    font-size: 16px;
+  }
+
+}

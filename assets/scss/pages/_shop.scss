@@ -1,0 +1,100 @@
+.shop{
+  padding: 0 16px;
+}
+.shop_title{
+  margin-top: 96px;
+  padding-left: 16px;
+  font-size: 48px;
+  font-weight: 900;
+  border-left: solid 8px #9f1213 
+}
+.shop_bransh{
+  display: flex;
+  margin-top: 33px;
+  font-size: 24px;
+}
+.shop_bransh select{
+  width: 25%;
+  margin-left: 16px;  
+}
+.shops{
+  margin-top: 41px;
+  margin-bottom: 80px;
+}
+.bransh_card {
+  width: 40%;
+  border: 1px solid #00000020;
+  color: #212529;
+  margin-right: 24px;
+}
+.bransh_card img{
+  width: 100%;
+  object-fit: cover;
+}
+.bransh_card h3{
+  font-size: 24px;
+  padding: 8px 0 8px 24px;
+  border-bottom: 1px solid #00000020;
+}
+.bransh_card ul{
+  padding: 16px 0 8px 24px;
+}
+.bransh_list{
+  display: flex;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+.bransh_list span{
+  margin-right: 11px;
+}
+
+.map img{
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 996px) {
+  .shops{
+    flex-direction: column;
+  }
+  .bransh_card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 0 ;
+    margin-bottom: 24px;
+  }
+  .bransh_card img{
+    width: 50%;
+    padding-right: 24px;
+  }
+  .bransh_text{
+    border: 1px solid #00000020;
+  }
+}
+@media (max-width: 768px) {
+  .shop_title{
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .shop_bransh h2{
+    font-size: 16px;
+  }
+  .shop_bransh select{
+    width: 75%;
+  }
+  .shop_bransh{
+    margin-top: 24px;
+    display: flex;
+  }
+  .shops{
+    flex-direction: column;
+    margin: 24px 0;
+  }
+  .bransh_card{
+    width: 100%;
+    flex-direction: column;
+  }
+  .bransh_card img{
+    width: 100%;
+  }
+}
